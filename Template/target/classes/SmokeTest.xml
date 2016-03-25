@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Tests" parallel ="false">
+    <test name="P3 Test">
+        <groups>
+            <run>
+                <include name = "p3"/>
+            </run>
+        </groups>
+        <classes>
+            <class name = "com.techportal.tests.TPUser_Smoke_Test"/>
+        </classes>
+    </test>
+
+
+
+</suite>

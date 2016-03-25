@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="searchTests">
+    <test name="P3 test">
+        <groups>
+            <run>
+                <include name="p3"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.drupal.tests.Search_Test">
+                <methods>
+                    <exclude name="submitSearch"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
